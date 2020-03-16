@@ -9,9 +9,9 @@ app.use(bodyparser.json());
 //db details
 var mysqlConnection = mysql.createConnection({
     host: 'localhost',
-    user: 'qodadmin',
-    password: 'root1234',
-    database: 'acc_views',
+    user: 'myadminuser',
+    password: 'myadminpassword',
+    database: 'mydatabasename',
     multipleStatements: true
 });
 
