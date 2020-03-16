@@ -1,18 +1,18 @@
 # Simple CRUD/node.js/mySQL application
 
-##Run with
+## Run with
 `npm run start`
 
-##API requests
-GET (get all rows from table)
+## API requests
+### GET (get all rows from table)
 
 `http://localhost:8080/students`
 
-GET (get one row from table)
+### GET (get one row from table)
 
 `http://localhost:8080/students/3`
 
-POST (insert-update table)
+### POST (insert-update table)
 
 `http://localhost:8080/students`
 
@@ -23,11 +23,11 @@ POST (insert-update table)
     "course_id": 50
 }`
 
-DELETE (delete one row from table)
+### DELETE (delete one row from table)
 
 `http://localhost:8080/students/4`
 
-##DB table
+## DB table
 
 `create table studentdetails
 (
@@ -38,7 +38,7 @@ DELETE (delete one row from table)
     course_id     int         null
 );`
 
-##DB rows
+## DB rows
 
 `INSERT INTO acc_views.studentdetails (student_id, student_name, student_email, course_id) VALUES (1, 'ana', 'ana@ana.com', 20);`
 
@@ -46,6 +46,6 @@ DELETE (delete one row from table)
 
 `INSERT INTO acc_views.studentdetails (student_id, student_name, student_email, course_id) VALUES (3, 'coraline', 'coraline@coraline.com', 15);`
 
-##DB details
+## DB details
 
 Change the host, user, password, database in `server.js` as necessary
